@@ -11,7 +11,7 @@ export default function RefundPolicy() {
             Refund Policy
           </h1>
           <p className="mt-2 text-sm font-semibold text-[#FFD700] uppercase tracking-wider bg-black px-4 py-1 rounded-full inline-block">
-            Dazzling Screens LLP
+            Elite Screens LLP
           </p>
         </div>
       </section>
@@ -20,7 +20,7 @@ export default function RefundPolicy() {
       <section className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-16">
         <article className="space-y-6 text-gray-750 leading-relaxed text-sm sm:text-base">
           <p>
-            This policy outlines how refunds are processed for advance slot reservations made through the Dazzling Screens LLP website and booking services.
+            This policy outlines how refunds are processed for advance slot reservations made through the Elite Screens LLP website and booking services.
           </p>
 
           <h2 className="text-xl font-bold text-gray-900 sm:text-2xl font-serif border-b border-gray-100 pb-2 pt-4">
@@ -35,7 +35,7 @@ export default function RefundPolicy() {
               This advance amount is <strong>fully refundable</strong> (excluding minor transaction convenience charges of the payment gateway, if any) if you notify us about cancellation at least <strong>72 hours</strong> prior to your scheduled slot start time.
             </li>
             <li>
-              To initiate a cancellation, you must contact our customer care team via <strong>WhatsApp chat</strong> at <a href="https://wa.me/919289289696" className="text-[#FFD700] hover:underline font-bold">+91 92892 89696</a>.
+              To initiate a cancellation, you must contact our customer care team via <strong>WhatsApp chat</strong> at <a href="https://wa.me/919853247324" className="text-[#FFD700] hover:underline font-bold">+91 98532 47324</a>.
             </li>
             <li>
               Refunds are initiated within <strong>24 hours</strong> of the approved request and usually take <strong>5 to 7 business days</strong> to reflect in your original payment method (bank account, UPI, or card) depending on your payment provider.

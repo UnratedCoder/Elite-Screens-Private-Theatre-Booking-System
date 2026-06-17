@@ -18,7 +18,10 @@ export default function Header() {
     pathname === "/refund-policy" ||
     pathname === "/cancellation-policy";
 
-  const linkColorClass = "text-[#111111] hover:text-yellow-600 transition-colors duration-200 font-semibold";
+  const isTransparent = !isScrolled && !isLegal && !isBooking;
+  const linkColorClass = isTransparent
+    ? "text-white/90 hover:text-[#FFD700] transition-colors duration-200 font-semibold"
+    : "text-gray-800 hover:text-yellow-600 transition-colors duration-200 font-semibold";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -47,6 +50,8 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
+  if (isBooking) return null;
+
   return (
     <div
       className="w-full fixed top-0 left-0 z-50 flex flex-col pointer-events-none transition-transform duration-300"
@@ -61,22 +66,21 @@ export default function Header() {
         <div className="w-full bg-black text-white border-b border-white/5 overflow-hidden h-[34px] flex items-center pointer-events-auto">
           <div className="flex whitespace-nowrap animate-marquee w-max">
             <div className="flex items-center gap-16 pr-16 text-[9px] sm:text-[10px] font-bold uppercase tracking-widest">
-              <span>HURRY UP !!! BOOK YOUR SLOTS IN ADVANCE AND ENJOY SPECIAL OFFERS. FOR DISCOUNTS, CALL US NOW! 928-928-9696</span>
+              <span>HURRY UP !!! BOOK YOUR SLOTS IN ADVANCE AND ENJOY SPECIAL OFFERS. FOR DISCOUNTS, CALL US NOW! 9853247324</span>
               <span>✦</span>
-              <span>DELHI NCR&apos;S PREMIUM PRIVATE THEATRE CELEBRATION CHANNELS</span>
+              <span>ELITE SCREENS - DELHI NCR&apos;S PREMIUM PRIVATE THEATRE CELEBRATION CHANNELS</span>
               <span>✦</span>
             </div>
             <div className="flex items-center gap-16 pr-16 text-[9px] sm:text-[10px] font-bold uppercase tracking-widest">
-              <span>HURRY UP !!! BOOK YOUR SLOTS IN ADVANCE AND ENJOY SPECIAL OFFERS. FOR DISCOUNTS, CALL US NOW! 928-928-9696</span>
+              <span>HURRY UP !!! BOOK YOUR SLOTS IN ADVANCE AND ENJOY SPECIAL OFFERS. FOR DISCOUNTS, CALL US NOW! 9853247324</span>
               <span>✦</span>
-              <span>DELHI NCR&apos;S PREMIUM PRIVATE THEATRE CELEBRATION CHANNELS</span>
+              <span>ELITE SCREENS - DELHI NCR&apos;S PREMIUM PRIVATE THEATRE CELEBRATION CHANNELS</span>
               <span>✦</span>
             </div>
           </div>
         </div>
       )}
 
-      {/* 2. MAIN NAVBAR */}
       <header
         className={`w-full transition-all duration-300 pointer-events-auto ${
           isBooking
@@ -85,17 +89,18 @@ export default function Header() {
             ? "bg-white border-b border-gray-200 py-3 shadow-sm text-gray-850"
             : isScrolled
             ? "bg-white/95 border-b border-gray-200/80 backdrop-blur-md py-3 shadow-md text-gray-900"
-            : "bg-white/45 border-b border-black/5 backdrop-blur-md py-3.5 text-gray-900"
+            : "bg-transparent py-4 text-white"
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-          {/* Logo Badge */}
-          <Link href="/" className="flex items-center cursor-pointer">
-            <img
-              src="/assets/logo.png"
-              alt="Dazzling Screens Logo"
-              className="h-[60px] w-[60px] md:h-[70px] md:w-[70px] bg-[#FFD700] rounded-full object-contain p-1.5 shadow-lg transition-all hover:scale-105"
-            />
+          <Link href="/" className="flex items-center cursor-pointer group">
+            <div className="logo-container bg-[#1e2330] rounded-xl flex items-center justify-center h-[54px] w-[86px] md:h-[62px] md:w-[98px] shadow-md p-0.5 border border-amber-500/30">
+              <img
+                src="/assets/logo.png"
+                alt="Elite Screens Logo"
+                className="logo-image h-full w-full object-cover rounded-lg"
+              />
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -154,7 +159,7 @@ export default function Header() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="p-2 rounded-lg transition text-gray-800 hover:bg-black/5"
+                className={`p-2 rounded-lg transition ${isTransparent ? "text-white hover:bg-white/10" : "text-gray-800 hover:bg-black/5"}`}
                 aria-label="Toggle menu"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

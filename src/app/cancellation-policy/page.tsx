@@ -11,7 +11,7 @@ export default function CancellationPolicy() {
             Cancellation Policy
           </h1>
           <p className="mt-2 text-sm font-semibold text-[#FFD700] uppercase tracking-wider bg-black px-4 py-1 rounded-full inline-block">
-            Dazzling Screens LLP
+            Elite Screens LLP
           </p>
         </div>
       </section>
@@ -20,7 +20,7 @@ export default function CancellationPolicy() {
       <section className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-16">
         <article className="space-y-6 text-gray-750 leading-relaxed text-sm sm:text-base">
           <p>
-            This policy explains cancellation eligibility, rescheduling limits, and advance booking conditions for bookings made at Dazzling Screens LLP.
+            This policy explains cancellation eligibility, rescheduling limits, and advance booking conditions for bookings made at Elite Screens LLP.
           </p>
 
           <h2 className="text-xl font-bold text-gray-900 sm:text-2xl font-serif border-b border-gray-100 pb-2 pt-4">
@@ -38,7 +38,7 @@ export default function CancellationPolicy() {
               <strong>Rescheduling Slots:</strong> Rescheduling is treated as a cancellation and re-booking. Rescheduling is only possible if requested at least 72 hours before the original slot time. Within the 72-hour window, rescheduling is not allowed, and a new booking must be placed.
             </li>
             <li>
-              <strong>How to Cancel:</strong> To request a cancellation, send a message to our WhatsApp support at <a href="https://wa.me/919289289696" className="text-[#FFD700] hover:underline font-bold">+91 92892 89696</a> with your Name, Booking Date, Slot Time, and Reservation ID.
+              <strong>How to Cancel:</strong> To request a cancellation, send a message to our WhatsApp support at <a href="https://wa.me/919853247324" className="text-[#FFD700] hover:underline font-bold">+91 98532 47324</a> with your Name, Booking Date, Slot Time, and Reservation ID.
             </li>
           </ul>
 

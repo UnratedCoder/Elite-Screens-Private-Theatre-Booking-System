@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <p className="mt-2 text-sm font-semibold text-[#FFD700] uppercase tracking-wider bg-black px-4 py-1 rounded-full inline-block">
-            Dazzling Screens LLP
+            Elite Screens LLP
           </p>
         </div>
       </section>
@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
       <section className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-16">
         <article className="space-y-6 text-gray-750 leading-relaxed text-sm sm:text-base">
           <p>
-            At Dazzling Screens LLP, accessible from dazzlingscreens.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Dazzling Screens and how we use it.
+            At Elite Screens LLP, accessible from elitescreens.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Elite Screens and how we use it.
           </p>
 
           <h2 className="text-xl font-bold text-gray-900 sm:text-2xl font-serif border-b border-gray-100 pb-2 pt-4">
@@ -51,7 +51,7 @@ export default function PrivacyPolicy() {
             Cookies and Web Beacons
           </h2>
           <p>
-            Like any other website, Dazzling Screens uses &ldquo;cookies&rdquo;. These cookies are used to store information including visitors&apos; preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users&apos; experience by customizing our web page content based on visitors&apos; browser type and/or other information.
+            Like any other website, Elite Screens uses &ldquo;cookies&rdquo;. These cookies are used to store information including visitors&apos; preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users&apos; experience by customizing our web page content based on visitors&apos; browser type and/or other information.
           </p>
           <p>
             You can choose to customize or disable cookies through our cookie consent banner at the bottom of the page or through your individual browser options.

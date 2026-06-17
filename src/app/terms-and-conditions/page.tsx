@@ -11,7 +11,7 @@ export default function TermsAndConditions() {
             Terms & Conditions
           </h1>
           <p className="mt-2 text-sm font-semibold text-[#FFD700] uppercase tracking-wider bg-black px-4 py-1 rounded-full inline-block">
-            Dazzling Screens LLP
+            Elite Screens LLP
           </p>
         </div>
       </section>
@@ -25,7 +25,7 @@ export default function TermsAndConditions() {
               1. Venue Booking Rules & Guidelines
             </h2>
             <p className="mb-4">
-              By reserving a private theatre slot at Dazzling Screens, you agree to comply with the following operational rules. Failure to do so may result in immediate cancellation of your session without a refund.
+              By reserving a private theatre slot at Elite Screens, you agree to comply with the following operational rules. Failure to do so may result in immediate cancellation of your session without a refund.
             </p>
             <ul className="list-disc pl-6 space-y-3">
               <li>

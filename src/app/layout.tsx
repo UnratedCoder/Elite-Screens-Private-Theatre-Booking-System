@@ -20,8 +20,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Dazzling Screens - Private Theatre Experiences",
-  description: "Book private cinema experiences for birthdays, anniversaries, date nights, proposals & more. Unforgettable moments in a dazzling setting.",
+  title: "Elite Screens - Private Theatre Experiences",
+  description: "Book private cinema experiences for birthdays, anniversaries, date nights, proposals & more. Unforgettable moments in an elite setting.",
 };
 
 export default function RootLayout({

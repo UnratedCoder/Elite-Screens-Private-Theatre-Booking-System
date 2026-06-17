@@ -8,7 +8,7 @@ export default function FloatingActions() {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-6 right-4 z-40 sm:bottom-8 sm:right-6 pointer-events-none">
+    <div className="fixed bottom-6 right-4 z-40 sm:bottom-8 sm:right-6 pointer-events-none print:hidden">
       <div className="flex flex-col items-center gap-3 pointer-events-auto md:items-end">
         {/* Hide Button for Mobile (optional matching) */}
         <button
@@ -35,8 +35,8 @@ export default function FloatingActions() {
 
         {/* Call Link */}
         <a
-          href="tel:+919289289696"
-          aria-label="Call Dazzling Screens"
+          href="tel:+919853247324"
+          aria-label="Call Elite Screens"
           className="relative inline-flex h-12 w-12 items-center justify-center rounded-full border border-gray-300 bg-white text-slate-900 shadow-[0_16px_35px_rgba(15,23,42,0.18)] backdrop-blur transition-transform duration-200 hover:-translate-y-0.5 hover:bg-gray-50 hover:shadow-xl"
         >
           <svg
@@ -59,7 +59,7 @@ export default function FloatingActions() {
 
         {/* WhatsApp Link */}
         <a
-          href="https://wa.me/919289289696"
+          href="https://wa.me/919853247324"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Chat on WhatsApp"
