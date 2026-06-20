@@ -8,6 +8,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CookieBanner from "@/components/CookieBanner";
 import PromoBanner from "@/components/PromoBanner";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({
   variable: "--font-sans",
@@ -43,6 +44,7 @@ export default function RootLayout({
         <FloatingActions />
         <CookieBanner />
         <PromoBanner />
+        <SpeedInsights />
       </body>
     </html>
   );
